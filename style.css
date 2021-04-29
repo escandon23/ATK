@@ -1,0 +1,225 @@
+body{
+    margin: 0px;
+    background-color: rgb(88, 42, 86);
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.6;
+} 
+
+.container-fluid{
+    background-color:rgb(88, 42, 86);
+    border-bottom: solid 4px white;
+    padding: 0px;
+}
+
+/* navigation */
+.navbar-brand{
+    font-family: 'PT Serif', serif;
+}
+
+a.navbar-brand{
+   color: pink;
+   font-size: 3rem;
+   font-weight: bold;
+   font-style: normal;
+}
+.nav-link{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-right: 2.5em;
+   
+}
+.nav-link:hover{
+    color:pink;
+    border-bottom: 2px solid pink ;
+}
+.fa-bars{
+    color:  white;;
+}
+
+
+
+.showcase1{
+    background-image: url("images/classy.jpeg");
+    background-size: contain;   
+    height: 20em;
+}
+.showcase2{
+    background-image: url("images/wristwatch.jpeg");
+    background-size: contain;
+    height: 20em;
+}
+.showcase3{
+    background-image: url("images/Brazillianstyle.jpeg");
+    background-size: contain;
+    height:20em;
+}
+
+.showcase_content{
+    width: 30%;
+    margin-left: 1.6em;
+    margin-top: 3em;
+}
+.showcase_text1{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.showcase_text2{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.showcase_text3{
+    color:white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+/* heading */
+.first_heading{
+    border-right: solid white 0.2em;
+    display: inline-block;
+    margin-top: 7em;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    text-align: left;
+    width: 70%;
+
+}
+.firstheading_text{
+    font-family: 'PT Serif', serif;
+    color: pink;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 2;
+
+}
+
+
+
+@media(max-width:990px){
+    .nav-link:hover{
+        border: none;
+    }
+    .first_heading{
+        border: none;
+        width: 100%;
+    }
+  
+   
+}
+/* product page *//* product page *//* product page *//* product page *//* product page *//* product page *//* product page */
+.card{
+    background-color: rgb(88, 42, 86);
+    border-right: 2px solid grey;
+    text-align: center;
+    
+}
+
+.card-header img{
+    height: 10em;
+}
+.card-body{
+    color: white;
+}
+.card-body h3{
+    font-size: 1rem;
+}
+.card-body h5{
+    font-size: 0.8rem;
+}
+/* Blog Page *//* Blog Page *//* Blog Page *//* Blog Page *//* Blog Page *//* Blog Page *//* Blog Page *//* Blog Page *//* Blog Page */
+
+.blog-body .container-fluid{
+   
+
+    border-bottom: solid 4px white;
+    position: fixed;
+    top:0px;
+    z-index: 2;
+    margin-bottom: 2em;
+    
+}
+.blog-content{
+    margin-top: 6.6em;
+}
+.blog-title{
+
+    color: orange;
+    font-style: italic;
+    font-size: 2rem;
+    margin:20px 0px 20px 20px;
+}
+.blog-div{
+
+    margin-top: 1.25em;
+    margin-left: 4.375em;
+}
+.blog-image{
+    position: relative;
+    bottom: 4em;
+    width: 10em;
+    border-radius:100%;
+    background-color: white;
+  
+}
+.text-div{
+   
+    padding-left: 1.25em;
+    padding-bottom: 5em;
+    display: inline-block;
+   
+    margin-left: 2.5em;
+    width:40%;
+   
+  
+
+}
+h3.blog-heading{
+    text-align: center;
+}
+h6{
+    margin-top: 1.25em;
+    font-family: 'Roboto',sans-serif;
+}
+h6 a{
+    color: pink;
+}
+h6 a:hover{
+    color: rgb(172, 54, 54);
+    text-decoration: none;
+}
+.nextprev{
+    background-color: pink;
+    height: 1.5em;
+}
+.blog-content li{
+    margin-left: 1em;
+    color: white;
+}
+.welcome-blog{
+ 
+    background-color:rgb(88, 42, 86);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.welcome-blog h3{
+    text-align: center;
+    font-style: italic;
+    color:white;
+  
+}
+.welcome-atk{
+    font-size: 3rem;
+}
+.nextprev h6{
+    display: inline-block;
+    margin: 0 auto 0 auto;
+}
